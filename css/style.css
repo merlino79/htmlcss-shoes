@@ -75,10 +75,14 @@ nav ul li{
   background-color: green;
 }
  
-.box-yellow{
+.box-yellow {
   background-color: yellow;
+  color: green;
 }
 
+.layover .color{
+  color: green;
+}
   
 .layover{
   height: 100%;
