@@ -9,6 +9,13 @@
 body{
   font-family: 'Roboto', sans-serif;
   scroll-behavior:smooth;
+  height: auto;
+}
+
+.conteiner{
+  width: 100%;
+  margin: auto;
+  position: relative;
 }
 
 
@@ -16,30 +23,41 @@ header{
   
   height: 200px;
   background-color: red;
-  line-height: 200px;
   position: relative;
+  
+  
 }
 
 nav { 
   
   display: inline-block;
+  height: 200px;
+  position: fixed;
+  right: 0;
+  line-height: 200px;
   
   
-  
-  
-
+ 
 }
 
-ul li{
-  width: 100%;
-  text-transform: uppercase;
+
+nav ul li{
   display: inline;
+ 
+  
+}
+
+.square{
+  text-transform: uppercase;
   padding-right: 10px;
   background-color: rgb(245, 245, 237);
   border: 1px solid black;
   border-radius: 50%;
-  padding: 20px;
+  padding: 25px;
   margin: 10px;
-  
+
 }
+  
+  
+
 
