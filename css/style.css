@@ -1,6 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 
 
 body{
   font-family: 'Roboto', sans-serif;
   scroll-behavior:smooth;
 }
+
+
+header{
+  
+  height: 200px;
+  background-color: red;
+  line-height: 200px;
+  position: relative;
+}
+
+nav { 
+  
+  display: inline-block;
+  
+  
+  
+  
+
+}
+
+ul li{
+  width: 100%;
+  text-transform: uppercase;
+  display: inline;
+  padding-right: 10px;
+  background-color: rgb(245, 245, 237);
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 20px;
+  margin: 10px;
+  
+}
+
