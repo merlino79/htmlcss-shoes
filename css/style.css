@@ -93,9 +93,13 @@ nav ul li{
 }
 
 .layover h1{
-  
+  position: absolute;
   color: yellow;
   text-transform: uppercase;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
  
 }
 
