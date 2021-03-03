@@ -45,6 +45,7 @@ nav {
 
 nav ul li{
   display: inline;
+  list-style: none;
  
   
 }
@@ -58,9 +59,22 @@ nav ul li{
   padding: 25px;
   margin: 10px;
   font-size: 20px;
-  box-shadow: 5px rgb(86, 90, 90);
+  box-shadow: 5px 5px 5px rgb(86, 90, 90);
 
 }
+
+nav ul li a{
+  text-transform: uppercase;
+  text-decoration: none;
+  
+}  
+
+nav ul li a:hover{
+  box-shadow: 5px 5px 5px rgb(86, 90, 90);
+
+}
+
+
 
 .box{
  
